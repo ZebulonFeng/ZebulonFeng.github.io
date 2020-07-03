@@ -1,6 +1,8 @@
 
 ## 机器码和它的反汇编 disassembly 表示
 
+第二章”信息的表示和处理“，补码和有符号数相关的部分，超级绕脑的，公式也很多，看得头痛，但又是后面章节的基础，不可跳过。第三章就友好很多了，分析汇编指令和二进制更形象具体可操作。只要代码写得足够多，有了”直觉“，回头再看剖析代码底层逻辑的基础书籍，就会有种想法：<这个地方天然就应该是这样的>，丝毫不觉得这是阻碍。想起一句名言，”我们不是学会了数学，我们只是逐渐变得习惯了它”。
+
 * x86-64 指令可能的长度范围从1到15个字节（不定长），常用指令和操作数较少的指令所需的字节数要比不那么常用的指令或操作数较多的指令少。
 
 commonly used instructions and those with fewer operands require a smaller number of bytes than do less common ones or ones with more operands.
