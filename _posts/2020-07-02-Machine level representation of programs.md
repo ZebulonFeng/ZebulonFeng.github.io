@@ -1,11 +1,11 @@
 
-## 机器码和它的反汇编 desassembly 表示
+## 机器码和它的反汇编 disassembly 表示
 
-* x86-64 指令可能的长度范围从1到15个字节。（不定长）
+* x86-64 指令可能的长度范围从1到15个字节（不定长），常用指令和操作数较少的指令所需的字节数要比不那么常用的指令或操作数较多的指令少。
 
 commonly used instructions and those with fewer operands require a smaller number of bytes than do less common ones or ones with more operands.
 
-常用指令和操作数较少的指令所需的字节数要比不那么常用的指令或操作数较多的指令少。
+
 
 * 从给定起始位置开始，字节到机器指令只有一个唯一的解码（即机器指令以特殊字节开头）。比如，只有 **pushq %rbx** 能以字节值 53 开头。
 
