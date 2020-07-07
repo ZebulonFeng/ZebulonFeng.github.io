@@ -1,104 +1,49 @@
-# Hydrogen
-轻盈、干净
+![preview Long Haul](/preview.jpg)
 
-跟随她的脚步，开始你的博客之旅
+Long Haul is a minimal jekyll theme built with SASS / GULP / BROWSERSYNC / AUTOPREFIXER and focuses on long form blog posts. It is meant to be used as a starting point for a jekyll blog/website.
 
->厌倦了无止境的加载以及繁杂的页面内容？那您很幸运，因为您发现了Hydrogen
-><br>我们避免繁杂 使用轻量化的模块来渲染在您屏幕上展示出来的一切 
-><br>当您使用过后就知道，她带给你的不仅仅只有简洁极速的阅读体验...
+If you really enjoy Long Haul and want to give me credit somewhere on the internet send or tweet out your experience with Long Haul and tag me [@brianmaierjr](https://twitter.com/brianmaierjr).
 
-语言：简体中文 | [English](README-en.md)
+#### [View Demo](http://brianmaierjr.com/long-haul)
 
-![hydrogen](/theme/logo-h.svg)
+## Features
 
-~~点点~~Star~~来一个好吗！秋梨膏！！~~
+- Minimal, Type Focused Design
+- Built with GULP + SASS + BROWSERSYNC + AUTOPREFIXER
+- SVG Social Icons
+- Responsive Nav Menu
+- XML Feed for RSS Readers
+- Contact Form via Formspree
+- 5 Post Loop with excerpt on Home Page
+- Previous / Next Post Navigation
+- Estimated Reading Time for posts
+- Stylish Drop Cap on posts
+- A Better Type Scale for all devices
+- Comments powered by Disqus
 
-# #快速开始
+## Setup
 
-![hydrogen](/theme/a-h.png)
+1. [Install Jekyll](http://jekyllrb.com)
+2. Fork the [Long Haul repo](http://github.com/brianmaierjr/long-haul)
+3. Clone it
+4. [Install Bundler](http://bundler.io/)
+5. Run `bundle install`
+6. Install gulp dependencies by running `npm install`
+7. Run Jekyll and watch files by running `bundle exec gulp`
+8. Customize and watch the magic happen!
 
-## #准备
+## Site Settings
 
-打开主题根目录下的`_config.yml`
+The main settings can be found inside the `_config.yml` file:
 
-根据需求修改以下选项：
+- **title:** title of your site
+- **description:** description of your site
+- **url:** your url
+- **paginate:** the amount of posts displayed on homepage
+- **navigation:** these are the links in the main site navigation
+- **social** diverse social media usernames (optional)
+- **google_analytics** Google Analytics key (optional)
 
-`title` : 更改你的博客名字
+## License
 
-`description` : 更改你的博客描述
-
-`keywords` : 博客关键词(SEO相关)
-
-`baseurl` : 博客所在的目录文件夹，开头需带上`/`，如果为根目录请留空(建议将博客放置在根目录)
-
-`url` : 你的域名，如`atlinker.cn`无需加`http/https://`
-
-`bulidtime` : 博客建立时的时间戳，填写后将自动计算博客建立时间并显示在页脚. [日期转时间戳](https://tool.lu/timestamp/)
-
-`paginate` : 主页中显示的最大文章数，超过设定的数值文章自动归入下一页
-
-`background` : 博客首页主题图片路径
-
-`theme_color` : 博客顶部栏颜色，填颜色代码**但不要带上#号**
-
-`MathJax` : 是否开启MathJax(布尔值)
-
-`author` : 作者名
-
-> 开发者选项
->> `PJAX` : PJAX无刷新加载(布尔值)
-
-## #设置域名
-
-修改根目录下的CNAME文件为你的域名即可
-
-#### 关于主题的基本设置已经完毕~
-
----
-
-## #友链添加
-
-打开`_data`目录下的`friends.yml`文件，根据文件中模板新添代码即可
-
----
-
-## #文章置顶
-
-在文章Front Matter添加stickie: true即可
-
-如：
-
-```
- ---
- layout: post
- title: Hi
- stickie: true
- ---
-```
-
-## #评论
-
-#### #前提
-
-> 必须确定已阅读[Valine](https://valine.js.org/quickstart.html)文档
-
-配置文件:
-
-`_data/social.yml` : 填写app id和key以及评论的相关信息
-
-`_includes/comments.html` : 评论设置
-
-确保配置无误后修改`_data/social.yml`中的`enable`值由`false`改为`ture`即可
-
-## #写在最后
-
-请花10分钟时间**认真**阅读文档，如还有疑难之处，请提[issues](https://github.com/link9596/hydrogen/issues/new)，我会尽力帮忙
-
-如使用过程有任何疑难Bug，也请提出[issues](https://github.com/link9596/hydrogen/issues/new)！ :+1:
-
-最后，如果喜欢~请给项目点个star:wink:(点star的dalao都超级靓的)
-
-![hydrogen](/theme/author.svg)
-
-![](https://img.shields.io/github/repo-size/link9596/hydrogen?color=%23F8BBD0)
-![](https://img.shields.io/github/release/link9596/hydrogen?color=%235C6BC0&label=Version)
+This is [MIT](LICENSE) with no added caveats, so feel free to use this Jekyll theme on your site without linking back to me or using a disclaimer.
